@@ -83,12 +83,23 @@ BridgeMail/
 
 ### Instalação e Implantação
 
-1. **Criar uma Planilha:** Abra uma nova [Google Sheet](https://sheets.new).
-2. **Acessar o Apps Script:** Vá em `Extensões` > `Apps Script`.
-3. **Colar o Código:** Copie o conteúdo de `translator.gs` e `send_test.gs` para o editor.
-4. **Inicializar:** Atualize a Planilha.
-    * Vá ao menu **BridgeMail** > **Setup System**.
-5. **Configurações:** Atualize a aba `Settings`.
+Você pode configurar o **BridgeMail** de duas formas. O método recomendado economiza tempo e garante que todas as formatações, validações de dados e proteções de células sejam aplicadas corretamente.
+
+#### Opção A: Usando o Template Oficial (Recomendado)
+
+1. **Acesse o Template:** Abra a [Planilha Mestra do BridgeMail](https://docs.google.com/spreadsheets/d/12k8AAtDM4alEI6LFXGW6boerH_lT5J9APZVl6DvWZL4/edit?usp=sharing).
+2. **Duplique o Arquivo:** Vá em `Arquivo` > `Fazer uma cópia`. Isso criará uma instância privada do motor na sua conta.
+3. **Configure os Parâmetros:** Acesse a aba `Settings` e preencha os valores necessários (e-mails, códigos de idioma, etc.).
+4. **Instale a Automação:** No menu superior, clique em **BridgeMail** > **Refresh Trigger Automation**. Isso ativará o monitoramento em segundo plano.
+
+#### Opção B: Configuração Manual
+
+1. **Criar Planilha:** Abra uma nova [Planilha Google](https://sheets.new).
+2. **Acessar Apps Script:** Vá em `Extensões` > `Apps Script`.
+3. **Colar o Código:** Crie os arquivos `translator.gs` e `send_test.gs` e cole seus respectivos conteúdos.
+4. **Inicializar Sistema:** Atualize a página da planilha e acesse o menu **BridgeMail** > **Setup System**.
+5. **Configurações:** Preencha a aba `Settings` gerada automaticamente pelo processo de setup.
+6. **Ativar Trigger:** Vá ao menu **BridgeMail** > **Refresh Trigger Automation**.
 
 ---
 
