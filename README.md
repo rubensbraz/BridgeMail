@@ -31,7 +31,6 @@
 ### E-mail examples
 
 * 📄 [Original Email (Japanese)](docs/email_examples/Original.pdf): The source payload.
-
 * 📄 [Translated Result](docs/email_examples/Translated.pdf): The final multi-language delivery.
 
 ---
@@ -81,7 +80,6 @@ BridgeMail/
 ### Prerequisites
 
 * A Google account.
-* Basic access to Google Sheets.
 
 ### Installation & Deployment
 
